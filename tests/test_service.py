@@ -1,8 +1,14 @@
 import unittest
+import os
 from gradebook import service
 
 
 class TestService(unittest.TestCase):
+
+    def setUp(self):
+        # Reset data before each test
+        if os.path.exists("data/gradebook.json"):
+            os.remove("data/gradebook.json")
 
     def test_add_student(self):
         sid = service.add_student("TestStudent")
