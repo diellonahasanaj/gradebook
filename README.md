@@ -15,9 +15,9 @@ python -m scripts.seed
 
 
 ## Basic Commands
-Add a student: python main.py add-student --name "Marcus Aurelius"
+Add a student: python main.py add-student --name "Diellona Hasanaj"
 
-Add a course: python main.py add-course --code CS50 --title "Intro to Computer Science"
+Add a course: python main.py add-course --code CS50 --title "Intro to CS"
 
 Enrollment: python main.py enroll --student-id 1 --course CS50
 
